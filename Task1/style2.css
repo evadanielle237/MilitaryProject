@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 750px;
+  margin: auto;
+  border: 1px solid #000000;
+  margin-top: 70px;
+  position: relative;
+  bottom: 20px;
+}
+.head {
+  display: inline-flex;
+  background-color: #add8e6;
+  border: 1px solid black;
+  height: 120px;
+  width: 100%;
+  box-sizing: border-box;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+#port {
+  border: 1px solid black;
+  left: 10px;
+  position: relative;
+  left: 7px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  border: 2px solid #000000;
+}
+.navbar {
+  border: 1.8px solid #000000;
+  background-color: #add8e6;
+  width: 750px;
+  border-left: none;
+  border-right: none;
+  height: 50px;
+  font-size: 20px;
+}
+
+#li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: #3cb371;
+  text-align: center;
+}
+
+#l1 {
+  background-color: white;
+  outline: 2px solid white;
+  border: 2px solid #000;
+  padding: 13px;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #add8e6;
+}
+#f1 {
+  /* grid-column: span 1; */
+  border: #000 1px solid;
+  border-left: none;
+  padding: 10px;
+  font-size: 23px;
+}
+#f2 {
+  border: #000 1px solid;
+  border-left: none;
+  padding: 10px;
+  font-size: 23px;
+}
+
+.foot {
+  border: 1px solid #000;
+  position: relative;
+  border-left: none;
+  padding: 10px;
+  border-right: none; /* remove
+    */
+  border-bottom: none; /* remove
+    */
+  text-align: center;
+  background-color: #add8e6;
+  font-size: 20px;
+}
+#dit {
+  font-size: 70px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* border: 1px solid black; */
+  text-shadow: 2px 2px black;
+  border-top: none; /* remove
+    */
+  border-bottom: none; /* remove
+    */
+  border-left: none;
+  transform: rotate(90deg);
+  position: relative;
+  left: 15px;
+}
+
+#lgn,
+#reg {
+  color: #6b8e23;
+}
+
+.div1,
+.div4,
+.div2,
+.div3,
+.div5 
+{
+  position: relative;
+  bottom: 30px;
+  left: 170px;
+  display: infline-flex;
+}
+.rw1,
+.rw2 {
+  bottom:30px;
+  position:relative;
+  left:100px;
+}
+.cap{
+  bottom:30px;
+  position:relative;
+  left:300px;
+}

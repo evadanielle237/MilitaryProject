@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  outline: solid 1px;
+}
+body {
+  margin: auto;
+  width: 1024px;
+  height: 1033px;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  margin-top: 30px;
+  outline: none;
+  border: 1px solid black;
+  border-bottom: none;
+  margin-bottom: 250px;
+}
+.body {
+  grid-row: span 5;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  position: relative;
+  bottom: 147px;
+  outline: none;
+  background-color: brown;
+}
+.feature-article {
+  grid-column: span 6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.nav-links,
+.ad-links {
+  grid-column: span 2;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  background-color: #cacbfd;
+}
+
+.news0 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.news1,
+.news2,
+.news0 {
+  outline: none;
+  border: 1px solid black;
+  border-bottom: none;
+  border-top-width: 2px;
+}
+.news1 {
+  border-right: 2 px solid black;
+}
+.news2 {
+  border-left: none;
+}
+.art-img {
+  width: 30%;
+  aspect-ratio: 1/1;
+  background: url(images/Nourane.jpeg);
+  background-size: cover;
+  float: left;
+}
+.logo {
+  grid-row: span 1;
+  padding: 0%;
+  outline: none;
+  position: relative;
+  bottom: 148px;
+}
+#img {
+  margin-left: 90px;
+  margin-top: 10px;
+}
+#noname {
+  width: 1000px;
+  height: 1px;
+  background-color: black;
+  border-color: black;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+#noname1 {
+  width: 180px;
+  height: 1px;
+  background-color: black;
+  border-color: black;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+#noname3 {
+  width: 180px;
+  height: 1px;
+  background-color: black;
+  border-color: black;
+  margin-top: -103px;
+  margin-left: 10px;
+}
+#addinfo {
+  outline: none;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+ul {
+  outline: none;
+  margin-bottom: 2px;
+}
+li {
+  display: inline-flex;
+  list-style-type: none;
+  margin-left: 100px;
+
+  outline: none;
+}
+.a {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 3px;
+  color: rgb(255, 153, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.a:hover {
+  background-color: #cacbfd;
+}
+.pgh {
+  outline: none;
+}
+.nav1,
+.nav2,
+.nav3 {
+  padding: 20px;
+}
+.nav2 {
+  margin-top: -147px;
+}
+.nav3 {
+  margin-top: -84px;
+}
+.news0 {
+  padding: 15px;
+}
+.ad1 {
+  background-image: url(images/shop.jpeg);
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-size: cover;
+  animation: img 20s forwards infinite;
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+}
+@keyframes img {
+  50% {
+    background-position: right;
+  }
+}
+.ad2 {
+  background-image: url(images/redmi.jpeg);
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-size: cover;
+}
+.ad3 {
+  background-image: url(images/hoetldeluxe.jpeg);
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-size: cover;
+  animation: img 20s forwards infinite;
+}
+@keyframes img {
+  50% {
+    background-position: right;
+  }
+}
+.news1,
+.news2 {
+  display: inline-flex;
+  padding: 29px;
+}
+.feature-article {
+  background-color: rgb(245 208 153);
+}
+/*
+}
+	  .news2{
+		background-image: url(images/hoetldeluxe.jpeg);
+        height:50px;
+        aspect-ratio: 1/1;
+        background-size: cover;
+		float: left;
+
+	  }*/

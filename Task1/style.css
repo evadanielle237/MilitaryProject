@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 700px;
+  margin: auto;
+  border: 1px solid #000000;
+  margin-top: 70px;
+}
+.head {
+  display: inline-flex;
+  background-color: #add8e6;
+  border: 1px solid black;
+  height: 120px;
+  width: 100%;
+  box-sizing: border-box;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+#port {
+  border: 1px solid black;
+  left: 10px;
+  position: relative;
+  left: 7px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  border: 2px solid #000000;
+}
+.navbar {
+  border: 1.8px solid #000000;
+  background-color: #add8e6;
+  width: 700px;
+  border-left: none;
+  border-right: none;
+  height: 50px;
+  font-size: 20px;
+}
+
+#li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: #19bb42;
+  text-align: center;
+}
+.main {
+  display: grid;
+  height: 40vh;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #add8e6;
+}
+#l1 {
+  background-color: white;
+  outline: 2px solid white;
+  border: 1px solid #000;
+  padding: 13px;
+}
+#text {
+  border: 1px solid #000;
+  grid-column: span 3;
+  border-bottom: none;
+  padding: 10px;
+  border-left: none;
+  font-size: 20px;
+
+  border-right: none; /* remove
+  */
+}
+#atcl {
+  border: 1px solid #000; /* remove
+  */
+  border-right: none; /* remove
+  */
+  border-bottom: none; /* remove
+  */
+  padding: 10px;
+  font-size: 20px;
+}
+.foot {
+  border: 1px solid #000;
+  position: relative;
+  border-left: none;
+  padding: 10px;
+  border-right: none; /* remove
+  */
+  border-bottom: none; /* remove
+  */
+  text-align: center;
+  background-color: #add8e6;
+  font-size: 20px;
+}
+#dit {
+  font-size: 70px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* border: 1px solid black; */
+  text-shadow: 2px 2px black;
+  border-top: none; /* remove
+  */
+  border-bottom: none; /* remove
+  */
+  border-left: none;
+  transform: rotate(90deg);
+  position: relative;
+  left: 15px;
+}
+
+/* #dit, {
+border: 1px solid #000;
+border-top: none;
+  border-bottom: none;
+}
+ */
+/*.foot, #atcl  {
+border: 1px solid #000;
+border-top: none;
+  border-bottom: none;
+  
+}
+ */
